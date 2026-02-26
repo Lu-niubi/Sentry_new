@@ -1,0 +1,55 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+       
+        "VsCodeTaskButtons.showCounter": true,
+        "VsCodeTaskButtons.tasks": [
+            {
+                "label": "$(tools)Build",
+                "task": "build task",
+                "tooltip": "Run Build Task"
+            },
+            {
+                "label": "$(chip)Download jlink",
+                "task": "flash with J-Link",
+                "tooltip": "Run Build and DAP_Flash Task"
+            },
+            {
+                "label": "$(chip)Download dap",
+                "task": "download dap",
+                "tooltip": "Run Flash Task"
+            },
+        ],
+        "files.associations": {
+            "inv_mpu.h": "c",
+            "servo.h": "c",
+            "tim.h": "c",
+            "serial.h": "c",
+            "stdint.h": "c",
+            "stm32f1xx_hal.h": "c",
+            "main.h": "c",
+            "separate.h": "c",
+            "math.h": "c",
+            "inverse.h": "c",
+            "hei.h": "c",
+            "motor.h": "c",
+            "stdbool.h": "c",
+            "emm_v5.h": "c",
+            "can.h": "c",
+            "robot_cmd.h": "c",
+            "daemon.h": "c",
+            "bsp_dwt.h": "c",
+            "arm_math.h": "c",
+            "errno.h": "c",
+            "stat.h": "c",
+            "motor_def.h": "c",
+            "robot_def.h": "c",
+            "remote_control.h": "c",
+            "gimbal.h": "c"
+        }
+    }
+}
